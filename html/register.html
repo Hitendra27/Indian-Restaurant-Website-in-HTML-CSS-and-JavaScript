@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spice Club</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/main2.css">
+
+    <script src="../javascript/main.js"></script>
+
+     <!-- Script for fontawesome -->
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+      <!--We are using Font Awesome to create the cart icon -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  />
+
+     <!-- google fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" 
+    rel="stylesheet">
+
+    
+    </head>
+
+
+            <!--- start of body -->
+    <body>
+  
+
+         <!-- start of section -->
+
+     <section>
+
+        <!-- start of nav bar -->
+
+        <nav>
+
+        <img id = "logo" src="../img/spiceclub.jpg" alt="Spice Club Logo" width="150" height="150">
+
+
+        
+            <ul>
+                <li><a href="home.html">HOME</a></li><hr style=" width: 30%;">
+                <li><a href="menus.html">MENUS</a></li><hr style=" width: 30%;">
+                <li><a href="gallery.html">GALLERY</a></li><hr style=" width: 30%;">
+                <li><a href="aboutus.html">ABOUT US</a></li><hr style=" width: 30%;">
+            </ul>
+
+            <div class="font">
+
+                <p>Follow Us:</p>
+    
+              <div class="font2">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-pinterest-square"></i>
+                </div>
+                </div>
+        
+            </nav>
+        </nav>
+
+        <!-- End of nav bar -->
+
+         <!-- start of article-menu -->
+
+        <article id="register">
+
+            <h1>Registration</h1>
+
+            <div class="loginPara">
+            <p><!-- Registration input fields -->
+                <i class="fas fa-user-plus"></i>Email: <input type="email" placeholder="Enter email" id="EmailInput" required><br>
+                <i class="fas fa-lock"></i>Password: <input type="password" placeholder="Enter password" id="PasswordInput" required><br>
+                <button id="button" onclick="storeUser()">Register</button>
+            </p>
+            <!-- Result of registration displayed here -->
+            <p id="Result"></p>
+            </div>
+
+            <script>
+                function storeUser(){
+                    //build object that we are going to store
+                    var usrObject = {};
+                    usrObject.email = document.getElementById("EmailInput").value;
+                    usrObject.password = document.getElementById("PasswordInput").value;
+
+                    //Store user
+                    localStorage[usrObject.email] = JSON.stringify(usrObject);
+
+                    //Inform user of result
+                    document.getElementById("Result").innerHTML = "<b>Registration successful.</b>";
+                }
+
+
+            </script>
+           
+            
+            </div>
+
+
+           
+                
+            
+
+            
+            
+        </article>
+
+         <!-- End of article-menu -->
+
+        <!-- article 2-->
+
+       
+
+
+     </section>
+
+      <!-- End of section -->
+
+       
+
+    <footer>
+
+        <!-- javascript date added to footer -->
+
+        <p>&copy <script type="text/javascript">
+            document.write(new Date().getFullYear());
+            </script>
+             Spice Club, All Rights Reserved.
+             <span style="float: right;"> Website Developed and Designed by Hitendra Quessou</span>
+            </p>
+
+    </footer>
+
+
+    
+        
+
+
+
+
+
+
+
+
+    </body>
+
+     <!-- End of body -->
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

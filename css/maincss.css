@@ -1,0 +1,36 @@
+/* This is my Main Css page: */
+
+h1{
+	color:orange;
+	font-family: Coronet;
+	font-size: 100px;
+	font-weight:bold;
+	font-style:oblique;
+	background-color:brown;
+}
+h2 {
+	color: brown;
+	font-family: Bodoni;
+	font-size: 25px;
+	font-style:normal;
+	
+}
+h3 {
+	color: orange;
+	font-family: Bodoni;
+	font-size: 20px;
+	font-style:normal;
+}
+ul {
+	color: brown;
+	font-family: Vintage;
+	font-size: 18px;
+	font-style: italic;
+}
+tr {
+		color: brown;
+	font-family: Vintage;
+	font-size: 20px;
+	font-style: normal;
+	background-color:orange ;
+}
