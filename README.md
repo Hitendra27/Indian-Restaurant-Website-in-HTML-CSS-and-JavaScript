@@ -1,6 +1,6 @@
 # Indian-Restaurant-Website-in-HTML-CSS-and-JavaScript
 
-Screenshots of the Indian Restaurant Website.
+## Screenshots of the Indian Restaurant Website.
 
 <img width="1440" alt="Screenshot 2021-12-28 at 20 59 33" src="https://user-images.githubusercontent.com/73651340/147702447-64687af1-a42a-49fe-8b72-83d800c665f6.png">
 <img width="1440" alt="Screenshot 2021-12-28 at 20 59 40" src="https://user-images.githubusercontent.com/73651340/147702453-387673f8-077a-4e00-8ebb-7f9da531ee53.png">
