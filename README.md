@@ -1,5 +1,15 @@
 # Indian-Restaurant-Website-in-HTML-CSS-and-JavaScript
 
+A static website using HTML, CSS AND JAVASCRIPT.
+
+HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.
+
+CSS is used to control presentation, formatting, and layout.
+
+JavaScript is used to control the behavior of different elements.
+
+View live demo here using github pages: [Live Demo](https://hitendra27.github.io/Indian-Restaurant-Website-in-HTML-CSS-and-JavaScript/)
+
 ## Screenshots of the Indian Restaurant Website.
 
 <img width="1440" alt="Screenshot 2021-12-28 at 20 59 33" src="https://user-images.githubusercontent.com/73651340/147702447-64687af1-a42a-49fe-8b72-83d800c665f6.png">
